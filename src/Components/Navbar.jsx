@@ -1,3 +1,5 @@
+import "../index.css"
+
 const Navbar = () => {
     return (
         <div id="navbar">
