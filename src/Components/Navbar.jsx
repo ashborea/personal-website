@@ -2,13 +2,13 @@ import "../index.css"
 
 const Navbar = () => {
     return (
-        <div id="navbar">
+        <div id="navbar" className="flex bg-darkbluebg">
             <div className="page-logo">
-                <p>Marjorie <span className="green">Siad</span></p>
+                <p>Marjorie <span className="color">Siad</span></p>
             </div>
-            <nav>
-                <ul>
-                    <li>Home</li>
+            <nav className="flex">
+                <ul className="flex">
+                    <li className="text-white">Home</li>
                     <li>Projets</li>
                     <li>Contact</li>
                     <li>Blog</li>
