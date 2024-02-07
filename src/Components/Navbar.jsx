@@ -8,7 +8,7 @@ const Navbar = () => {
                     <a href="/">M<span className="text-mainteal">S</span></a>
                 </div>
                 <div className="navigation flex gap-x-12 align-middle">
-                    <a href="#">A PROPOS</a>
+                    <a href="/">ACCUEIL</a>
                     <a href="/projets">PROJETS</a>
                     <a href="#">CONTACT</a>
                     <a href="#">BLOG</a>
