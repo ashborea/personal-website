@@ -1,10 +1,19 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Navbar from './Components/Navbar'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Home from './Pages/Home'
 import './index.css'
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />
+  }
+
+])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Navbar />
-  </React.StrictMode>,
+    <RouterProvider router={router} />
+  </React.StrictMode>
 )
