@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Pages/Home'
 import Projects from './Pages/Projects'
+import Contact from './Pages/Contact'
 import './index.css'
 
 const router = createBrowserRouter([
@@ -12,7 +13,10 @@ const router = createBrowserRouter([
   }, {
     path: '/projets',
     element: <Projects />
-
+  },
+  {
+    path: '/contact',
+    element: <Contact />
   }
 
 ])

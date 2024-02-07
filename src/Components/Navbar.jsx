@@ -10,7 +10,7 @@ const Navbar = () => {
                 <div className="navigation flex gap-x-12 align-middle">
                     <a href="/">ACCUEIL</a>
                     <a href="/projets">PROJETS</a>
-                    <a href="#">CONTACT</a>
+                    <a href="/contact">CONTACT</a>
                     <a href="#">BLOG</a>
                 </div>
                 <div className="language flex gap-2">
