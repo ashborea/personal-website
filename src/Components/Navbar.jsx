@@ -9,7 +9,7 @@ const Navbar = () => {
                 </div>
                 <div className="navigation flex gap-x-12 align-middle">
                     <a href="#">A PROPOS</a>
-                    <a href="#">PROJETS</a>
+                    <a href="/projets">PROJETS</a>
                     <a href="#">CONTACT</a>
                     <a href="#">BLOG</a>
                 </div>
