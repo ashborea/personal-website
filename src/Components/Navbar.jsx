@@ -2,7 +2,7 @@ import "../index.css"
 
 const Navbar = () => {
     return (
-        <header className="h-16">
+        <header className="h-16  ">
             <nav className="flex bg-darkbluebg text-white h-20 justify-between align-middle p-6" >
                 <div className="logo text-xl font-bold">
                     <a href="/">M<span className="text-mainteal">S</span></a>
